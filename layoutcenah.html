@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+    .poke{
+        border-right: 1px solid rgb(211, 210, 210);
+    }
+
+    @media (max-width: 768px){
+        .poke{
+            border-right: none;
+            border-bottom: 2px solid rgb(162, 162, 162);
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+
+        }
+    }
+    </style>
+    <title>Xnuttyyy</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid px-3">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="data:image/webp;base64,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"
+                    alt="logo" width="40 height=40" class="me-2 rounded-circle">
+                    <span class="navbar-brand mb-0 h1">Xnutyyy???</span>
+                    </a>
+                    <div class="d-flex ms-auto">
+                        <input class="form-control" type="search" placeholder="search??..">
+                        <button class="btn btn-primary me-2" type="sumbit">
+                          ???
+                        </button>
+                        <button class="btn btn-primary">Login?</button>
+                    </div>
+                    </div>
+                    </nav>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+                <div class="container text-center">
+  <div class="row">
+    <div class="col-sm-4 border-md-end border-bottom pb-3 mb-3 mb-md-0 poke">uasdoad j sdaos dso oajdoas osjd oasdaadasdasdo oaksdoasmd dkasdokasmd aksdmoamsa sdmdmdaomd</div>
+    <div class="col-sm-8">uashdoajdoais  uasdoiasoid aa iosadsoadisa snh oiadnasidn sijdnasoidjnsaoi dna uyahc n ashndinas oijndsoai ansd oando n ijnaod noas awdo ajsdoan asod nmj</div>
+  </div>
+</body>
+
+</html>
